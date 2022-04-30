@@ -1,5 +1,11 @@
 # Codifix
 
+About
+il est simple de mettre ce site en fonction. 1 vous devez vous inscrire sur omdbApi qui est totalement gratuit adresse : https://www.omdbapi.com/ dans l'onglet APIKEY 2 vous avez juste à récupérer la clef Api que vous recevrez par mail 3 une fois mon projet mis sur votre pc rechercher le fichier environnement.ts et le mettre au bout de la flèche
+
+
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.3.
 
 ## Development server
