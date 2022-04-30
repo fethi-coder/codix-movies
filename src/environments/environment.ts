@@ -5,7 +5,7 @@
 export const environment = {
   production: false,
   /*----------------------------------------------------- entrer vos clefs api ici ---------------------------------------------------------*/
-  apiKey: "&apikey=8ac5fb7f",        /*                   <=========                        */
+  apiKey: "******************",        /*                   <=========                        */
   allFilms:"",
 };
 /*
