@@ -43,4 +43,8 @@ export class AllFilmComponent implements OnInit {
     this.visible = false
   }
 
+returnHome(){
+  this.route.navigate(['menu'])
+}
+
 }
