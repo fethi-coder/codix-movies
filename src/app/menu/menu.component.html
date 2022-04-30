@@ -1,0 +1,17 @@
+<nav class="navbar">
+    <div class="container-fluid">
+        <a class="navbar-brand" routerLink="allfim">DocFix</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <form class="d-flex" [formGroup]="form">
+            <input formControlName="search">
+            <button class="btn-nav" (click)="film()"><img class="btn-nav-img"
+                    src="..\..\assets\image\1490129321-rounded10_82180.png" alt="logos de recherche"></button>
+        </form>
+    </div>
+</nav>
+<app-all-film></app-all-film>
+<app-affiche></app-affiche>
+

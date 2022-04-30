@@ -1,0 +1,68 @@
+.section-one {
+    z-index: 6;
+    top: 2px;
+    width: 7vw;
+    padding-bottom: 23px;
+    background-color: black;
+}
+
+.section-global {
+    height: 300px;
+    width: 100%;
+    padding-bottom: 10px;
+    gap: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    background-color: black;
+}
+
+.section-global .image {
+    position: relative;
+    height: 100px;
+    width: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .4s;
+    object-fit: cover;
+}
+
+.image {
+    background-size: cover;
+}
+
+.img-btn {
+    background-color: black;
+    border: none;
+    overflow-y: hidden;
+}
+
+.section-global .image:hover {
+    transform: scale(1.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.suivant {
+    z-index: 6;
+    height: 120px;
+}
+
+.precedent {
+    z-index: 6;
+    height: 120px;
+}
+
+.section-global .btn-fleche {
+    height: 23px;
+}
+
+.section-global .btn-fleche-two {
+    height: 23px;
+    width: 23px;
+    transform: rotate(180deg);
+}

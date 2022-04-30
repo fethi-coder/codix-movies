@@ -1,0 +1,32 @@
+<section class="blockCard">
+    <div class="card" *ngFor="let a of deatailFilm">
+        <button (click)="details(a.imdbID)">
+            <img class="card-img-top" [src]="a.Poster" alt="Card image cap">
+            <div class="card-body">
+                <p class="name">{{a.Title}}</p>
+                <p class="year">{{a.Year}}</p>
+            </div>
+        </button>
+    </div>
+</section>
+
+<section class="section-two" *ngIf="visible">
+    <div class="text-details-film">
+
+        <p>genre: {{film.Genre}}</p>
+        <p>titre: {{film.Title}}</p>
+        <p>année: {{film.Year}}</p>
+        <p>box-office: {{film.BoxOffice}}</p>
+        <p>acteurs: {{film.Actors}}</p>
+        <p>scénariste: {{film.Whriter}}</p>
+        <p>date de réalisation: {{film.Released}}</p>
+        <p>résume: {{film.Plot}}</p>
+        <p>awards: {{film.Awards}}</p>
+    </div>
+    <button class="close" (click)="close()">X</button>
+    <div class="image">
+        <img [src]="film.Poster" [alt]="film.Title">
+    </div>
+
+</section>
+

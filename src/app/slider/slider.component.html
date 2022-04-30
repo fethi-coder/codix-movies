@@ -1,0 +1,9 @@
+<app-detail [donnee]="transfere">
+</app-detail>
+<section class="section-global">
+    <button class="suivant" (click)="suivant()"><img class="btn-fleche-two" src="..\..\assets\image\next-4_icon-icons.com_64988.svg" alt=""></button>
+    <section class="section-one" *ngFor="let a of result">
+        <button class="img-btn" (click)="details(a)"><img class="image" [src]="a.Poster" [alt]="a.Title"></button>
+    </section>
+    <button class="precedent" (click)="precedent()"><img class="btn-fleche" src="..\..\assets\image\next-4_icon-icons.com_64988.svg" alt=""></button>
+</section>

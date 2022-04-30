@@ -1,0 +1,88 @@
+.blockCard {
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    gap: 28px;
+    background-color: rgba(15, 15, 15)
+}
+
+.card {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-size: contain;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.card-img-top {
+    height: 80%;
+    object-fit: cover;
+}
+
+button {
+    width: 280px;
+    height: 400px;
+    border-radius: 10px;
+    background-color: rgba(24, 23, 24);
+    color: white;
+}
+
+.card-body {
+    height: 65px;
+    overflow-y: hidden;
+}
+
+.card-body p {
+    word-break: keep-all;
+    font-size: .8em;
+}
+
+.section-two {
+    z-index: 7;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 100vh;
+    width: 100vw;
+    gap: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+    animation: slide 1s both;
+}
+
+@keyframes slide {
+    from {
+        margin-left: 100%;
+    }
+    to {
+        margin-left: 0%;
+    }
+}
+
+.text-details-film {
+    width: 40vw;
+}
+
+.text-details-film p {
+    width: 40vw;
+}
+
+.close {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 34px;
+    height: 34px;
+    background-color: red;
+    border: none;
+}

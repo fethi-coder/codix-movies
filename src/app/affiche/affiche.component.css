@@ -1,0 +1,102 @@
+.sectionOne {
+    top: 0px;
+    height: 700px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: black;
+    font-family: 'Sora', sans-serif;
+    background-image: url("../../assets/image/Arcane-photo.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation: image 50s infinite ease-in-out;
+}
+
+@keyframes image {
+    0% {
+        background-image: url("../../assets/image/Arcane-photo.jpeg");
+    }
+    25% {
+        background-image: url("../../assets/image/Godzilla-Kong.jpg");
+    }
+    50% {
+        background-image: url("../../assets/image/avenir-star-wars.jpg");
+    }
+    75% {
+        background-image: url("../../assets/image/331_ROGUEONEXXXW0112761_BAN1_2424_NEWTV.jpg");
+    }
+    100% {
+        background-image: url("../../assets/image/ry7k.jpg.crdownload");
+    }
+}
+
+h2 {
+    height: 23px;
+    width: auto;
+    overflow-y: hidden;
+}
+
+h2::before {
+    content: "starwars";
+    animation: titre 50s infinite;
+}
+
+@keyframes titre {
+    0% {
+        content: "Arcane";
+    }
+    25% {
+        content: "Godzilla vs Kong";
+    }
+    50% {
+        content: "Star Wars";
+    }
+    75% {
+        content: "Rogue One";
+    }
+    100% {
+        content: "L'interview qui tue !";
+    }
+    0% {
+        content: "Arcane";
+    }
+}
+
+img {
+    z-index: 1;
+    width: 100%;
+}
+
+.container-text {
+    position: absolute;
+    width: 40%;
+    height: 400px;
+    top: 200px;
+    left: 60px;
+    z-index: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: rgba(19, 19, 19, 0.8);
+}
+
+.text {
+    width: 90%;
+    height: 80%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 45px;
+}
+
+.btn-text {
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: red;
+    color: white;
+    border: none;
+    text-decoration: none;
+}
